@@ -1,0 +1,162 @@
+/*estilos globais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/*secão topo*/
+
+.topo-preco {
+    background: #2f86d6;
+}
+
+.container-topo {
+    position: relative;
+    padding: 35px 0;
+}
+
+.logo-topo {
+    position: relative;
+}
+
+.logo-topo img {
+    width: 80px;
+}
+
+.logo-topo div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.logo-topo p {
+    color: #fff;
+    font-weight: 600;
+}
+
+.links-topo-preco {
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+
+.links-topo-preco a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/*tabela*/
+
+.conteudo-principal {
+    padding: 100px 0;
+}
+
+.conteudo-principal table {
+    margin: auto;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
+
+.celula-cabecalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background: #f1f3f7;
+}
+
+.celula-cabecalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+.celula-cabecalho h2 {
+    font-size: 36px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+    background: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background: #2f86d6;
+    border-radius: 100px;
+}
+
+/*seção rodapé*/
+
+.rodape-precos {
+    padding-top: 70px;
+    background: #2f86d6;
+}
+
+.logo-rodape {
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+
+.logo-rodape img {
+    width: 80px;
+}
+
+.logo-rodape div {
+    position: absolute;
+    top: 0;
+    left: 95px;
+}
+
+.logo-rodape p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copy-right  {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 20px 0 70px;
+}
+
+.secao-desenvolvido-por {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px 0;
+    background: #fff;
+}
+
+.secao-desenvolvido-por span {
+    color: #2f86d6;
+}
